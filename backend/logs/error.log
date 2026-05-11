@@ -1,0 +1,820 @@
+[2026-04-15 12:25:39] ERROR: SequelizeConnectionError: Unknown database 'gestion_stages_formations'
+    at ConnectionManager.connect (C:\Users\Adem\OneDrive\Bureau\PROJETT-main\backend\node_modules\sequelize\src\dialects\mysql\connection-manager.js:126:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at ConnectionManager._connect (C:\Users\Adem\OneDrive\Bureau\PROJETT-main\backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at C:\Users\Adem\OneDrive\Bureau\PROJETT-main\backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+    at ConnectionManager.getConnection (C:\Users\Adem\OneDrive\Bureau\PROJETT-main\backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:280:7)
+    at C:\Users\Adem\OneDrive\Bureau\PROJETT-main\backend\node_modules\sequelize\src\sequelize.js:638:26
+    at Sequelize.authenticate (C:\Users\Adem\OneDrive\Bureau\PROJETT-main\backend\node_modules\sequelize\src\sequelize.js:972:5)
+    at connectDB (C:\Users\Adem\OneDrive\Bureau\PROJETT-main\backend\src\config\database.ts:45:5)
+    at startServer (C:\Users\Adem\OneDrive\Bureau\PROJETT-main\backend\src\server.ts:126:5)
+[2026-04-15 12:26:31] ERROR: SequelizeConnectionError: Unknown database 'gestion_stages_formations'
+    at ConnectionManager.connect (C:\Users\Adem\OneDrive\Bureau\PROJETT-main\backend\node_modules\sequelize\src\dialects\mysql\connection-manager.js:126:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at ConnectionManager._connect (C:\Users\Adem\OneDrive\Bureau\PROJETT-main\backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at C:\Users\Adem\OneDrive\Bureau\PROJETT-main\backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+    at ConnectionManager.getConnection (C:\Users\Adem\OneDrive\Bureau\PROJETT-main\backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:280:7)
+    at C:\Users\Adem\OneDrive\Bureau\PROJETT-main\backend\node_modules\sequelize\src\sequelize.js:638:26
+    at Sequelize.authenticate (C:\Users\Adem\OneDrive\Bureau\PROJETT-main\backend\node_modules\sequelize\src\sequelize.js:972:5)
+    at connectDB (C:\Users\Adem\OneDrive\Bureau\PROJETT-main\backend\src\config\database.ts:45:5)
+    at startServer (C:\Users\Adem\OneDrive\Bureau\PROJETT-main\backend\src\server.ts:126:5)
+[2026-04-15 12:41:31] ERROR: Error: secretOrPrivateKey must have a value
+    at Object.module.exports [as sign] (C:\Users\Adem\OneDrive\Bureau\PROJETT-main\backend\node_modules\jsonwebtoken\sign.js:111:20)
+    at generateTokens (C:\Users\Adem\OneDrive\Bureau\PROJETT-main\backend\src\config\jwt.ts:29:28)
+    at Function.register (C:\Users\Adem\OneDrive\Bureau\PROJETT-main\backend\src\services\auth.service.ts:111:34)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at register (C:\Users\Adem\OneDrive\Bureau\PROJETT-main\backend\src\controllers\auth.controller.ts:25:22)
+[2026-04-15 12:48:45] ERROR: Error: secretOrPrivateKey must have a value
+    at Object.module.exports [as sign] (C:\Users\Adem\OneDrive\Bureau\PROJETT-main\backend\node_modules\jsonwebtoken\sign.js:111:20)
+    at generateTokens (C:\Users\Adem\OneDrive\Bureau\PROJETT-main\backend\src\config\jwt.ts:29:28)
+    at Function.register (C:\Users\Adem\OneDrive\Bureau\PROJETT-main\backend\src\services\auth.service.ts:111:34)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at register (C:\Users\Adem\OneDrive\Bureau\PROJETT-main\backend\src\controllers\auth.controller.ts:25:22)
+[2026-04-15 13:57:57] ERROR: Error: secretOrPrivateKey must have a value
+    at Object.module.exports [as sign] (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\jsonwebtoken\sign.js:111:20)
+    at generateTokens (C:\Users\Adem\OneDrive\Bureau\test\backend\src\config\jwt.ts:25:27)
+    at Function.register (C:\Users\Adem\OneDrive\Bureau\test\backend\src\services\auth.service.ts:111:34)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at register (C:\Users\Adem\OneDrive\Bureau\test\backend\src\controllers\auth.controller.ts:25:22)
+[2026-04-15 14:07:10] ERROR: SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: YES)
+    at ConnectionManager.connect (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\mysql\connection-manager.js:118:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at ConnectionManager._connect (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+    at ConnectionManager.getConnection (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:280:7)
+    at C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:638:26
+    at Sequelize.authenticate (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:972:5)
+    at connectDB (C:\Users\Adem\OneDrive\Bureau\test\backend\src\config\database.ts:45:5)
+    at startServer (C:\Users\Adem\OneDrive\Bureau\test\backend\src\server.ts:126:5)
+[2026-04-15 14:08:33] ERROR: SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: YES)
+    at ConnectionManager.connect (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\mysql\connection-manager.js:118:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at ConnectionManager._connect (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+    at ConnectionManager.getConnection (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:280:7)
+    at C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:638:26
+    at Sequelize.authenticate (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:972:5)
+    at connectDB (C:\Users\Adem\OneDrive\Bureau\test\backend\src\config\database.ts:45:5)
+    at startServer (C:\Users\Adem\OneDrive\Bureau\test\backend\src\server.ts:126:5)
+[2026-04-15 14:10:55] ERROR: SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: YES)
+    at ConnectionManager.connect (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\mysql\connection-manager.js:118:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at ConnectionManager._connect (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+    at ConnectionManager.getConnection (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:280:7)
+    at C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:638:26
+    at Sequelize.authenticate (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:972:5)
+    at connectDB (C:\Users\Adem\OneDrive\Bureau\test\backend\src\config\database.ts:45:5)
+    at startServer (C:\Users\Adem\OneDrive\Bureau\test\backend\src\server.ts:126:5)
+[2026-04-15 14:12:38] ERROR: SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: YES)
+    at ConnectionManager.connect (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\mysql\connection-manager.js:118:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at ConnectionManager._connect (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+    at ConnectionManager.getConnection (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:280:7)
+    at C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:638:26
+    at Sequelize.authenticate (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:972:5)
+    at connectDB (C:\Users\Adem\OneDrive\Bureau\test\backend\src\config\database.ts:45:5)
+    at startServer (C:\Users\Adem\OneDrive\Bureau\test\backend\src\server.ts:126:5)
+[2026-04-15 14:13:23] ERROR: SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: YES)
+    at ConnectionManager.connect (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\mysql\connection-manager.js:118:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at ConnectionManager._connect (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+    at ConnectionManager.getConnection (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:280:7)
+    at C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:638:26
+    at Sequelize.authenticate (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:972:5)
+    at connectDB (C:\Users\Adem\OneDrive\Bureau\test\backend\src\config\database.ts:45:5)
+    at startServer (C:\Users\Adem\OneDrive\Bureau\test\backend\src\server.ts:126:5)
+[2026-04-15 14:26:30] ERROR: Error
+    at Query.run (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.bulkUpdate (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\abstract\query-interface.js:930:12)
+    at async Function.update (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\model.js:3352:28)
+    at async seed (C:\Users\Adem\OneDrive\Bureau\test\backend\src\utils\seeder.ts:63:3)
+[2026-04-15 16:47:56] ERROR: Error: 
+    at Query.run (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Function.sync (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\model.js:1408:11)
+    at Sequelize._syncModelsWithCyclicReferences (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:861:7)
+    at connectDB (C:\Users\Adem\OneDrive\Bureau\test\backend\src\config\database.ts:51:7)
+    at startServer (C:\Users\Adem\OneDrive\Bureau\test\backend\src\server.ts:126:5)
+[2026-04-15 16:51:48] ERROR: Error: 
+    at Query.run (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Function.sync (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\model.js:1408:11)
+    at Sequelize._syncModelsWithCyclicReferences (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:856:7)
+    at connectDB (C:\Users\Adem\OneDrive\Bureau\test\backend\src\config\database.ts:51:7)
+    at startServer (C:\Users\Adem\OneDrive\Bureau\test\backend\src\server.ts:126:5)
+[2026-04-15 16:51:52] ERROR: Error: 
+    at Query.run (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Function.sync (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\model.js:1408:11)
+    at Sequelize._syncModelsWithCyclicReferences (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:856:7)
+    at connectDB (C:\Users\Adem\OneDrive\Bureau\test\backend\src\config\database.ts:51:7)
+    at startServer (C:\Users\Adem\OneDrive\Bureau\test\backend\src\server.ts:126:5)
+[2026-04-15 16:51:55] ERROR: Error: 
+    at Query.run (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Function.sync (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\model.js:1408:11)
+    at Sequelize._syncModelsWithCyclicReferences (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:856:7)
+    at connectDB (C:\Users\Adem\OneDrive\Bureau\test\backend\src\config\database.ts:51:7)
+    at startServer (C:\Users\Adem\OneDrive\Bureau\test\backend\src\server.ts:126:5)
+[2026-04-15 16:51:58] ERROR: Error: 
+    at Query.run (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Function.sync (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\model.js:1408:11)
+    at Sequelize._syncModelsWithCyclicReferences (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:856:7)
+    at connectDB (C:\Users\Adem\OneDrive\Bureau\test\backend\src\config\database.ts:51:7)
+    at startServer (C:\Users\Adem\OneDrive\Bureau\test\backend\src\server.ts:126:5)
+[2026-04-15 16:54:48] ERROR: Error: 
+    at Query.run (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Function.sync (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\model.js:1408:11)
+    at Sequelize._syncModelsWithCyclicReferences (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:856:7)
+    at connectDB (C:\Users\Adem\OneDrive\Bureau\test\backend\src\config\database.ts:51:7)
+    at startServer (C:\Users\Adem\OneDrive\Bureau\test\backend\src\server.ts:126:5)
+[2026-04-15 16:54:55] ERROR: Error: 
+    at Query.run (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Function.sync (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\model.js:1408:11)
+    at Sequelize._syncModelsWithCyclicReferences (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:856:7)
+    at connectDB (C:\Users\Adem\OneDrive\Bureau\test\backend\src\config\database.ts:51:7)
+    at startServer (C:\Users\Adem\OneDrive\Bureau\test\backend\src\server.ts:126:5)
+[2026-04-15 16:55:26] ERROR: Error: 
+    at Query.run (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Function.sync (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\model.js:1408:11)
+    at Sequelize._syncModelsWithCyclicReferences (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:856:7)
+    at connectDB (C:\Users\Adem\OneDrive\Bureau\test\backend\src\config\database.ts:51:7)
+    at startServer (C:\Users\Adem\OneDrive\Bureau\test\backend\src\server.ts:126:5)
+[2026-04-15 16:56:35] ERROR: Error
+    at Query.run (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Function.sync (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\model.js:1408:11)
+    at async Sequelize._syncModelsWithCyclicReferences (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:856:7)
+    at async connectDB (C:\Users\Adem\OneDrive\Bureau\test\backend\src\config\database.ts:51:7)
+    at async seed (C:\Users\Adem\OneDrive\Bureau\test\backend\src\utils\seeder.ts:16:3)
+[2026-04-15 16:57:00] ERROR: Error
+    at Query.run (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Function.sync (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\model.js:1408:11)
+    at async Sequelize._syncModelsWithCyclicReferences (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:856:7)
+    at async connectDB (C:\Users\Adem\OneDrive\Bureau\test\backend\src\config\database.ts:51:7)
+    at async seed (C:\Users\Adem\OneDrive\Bureau\test\backend\src\utils\seeder.ts:16:3)
+[2026-04-15 16:58:15] ERROR: Error
+    at Query.run (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Function.sync (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\model.js:1408:11)
+    at async Sequelize._syncModelsWithCyclicReferences (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:856:7)
+    at async connectDB (C:\Users\Adem\OneDrive\Bureau\test\backend\src\config\database.ts:51:7)
+    at async seed (C:\Users\Adem\OneDrive\Bureau\test\backend\src\utils\seeder.ts:16:3)
+[2026-04-15 16:58:24] ERROR: Error: 
+    at Query.run (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Function.sync (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\model.js:1408:11)
+    at Sequelize._syncModelsWithCyclicReferences (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:856:7)
+    at connectDB (C:\Users\Adem\OneDrive\Bureau\test\backend\src\config\database.ts:51:7)
+    at startServer (C:\Users\Adem\OneDrive\Bureau\test\backend\src\server.ts:126:5)
+[2026-04-15 16:59:49] ERROR: Error: 
+    at Query.run (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Function.sync (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\model.js:1408:11)
+    at Sequelize._syncModelsWithCyclicReferences (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:861:7)
+    at connectDB (C:\Users\Adem\OneDrive\Bureau\test\backend\src\config\database.ts:57:9)
+    at startServer (C:\Users\Adem\OneDrive\Bureau\test\backend\src\server.ts:126:5)
+[2026-04-15 17:01:11] ERROR: Error
+    at Query.run (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Function.sync (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\model.js:1408:11)
+    at async Sequelize._syncModelsWithCyclicReferences (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:861:7)
+    at async connectDB (C:\Users\Adem\OneDrive\Bureau\test\backend\src\config\database.ts:57:9)
+    at async seed (C:\Users\Adem\OneDrive\Bureau\test\backend\src\utils\seeder.ts:16:3)
+[2026-04-15 17:01:19] ERROR: Error: 
+    at Query.run (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Function.sync (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\model.js:1408:11)
+    at Sequelize._syncModelsWithCyclicReferences (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:861:7)
+    at connectDB (C:\Users\Adem\OneDrive\Bureau\test\backend\src\config\database.ts:57:9)
+    at startServer (C:\Users\Adem\OneDrive\Bureau\test\backend\src\server.ts:126:5)
+[2026-04-15 17:02:13] ERROR: Error: 
+    at Query.run (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Function.sync (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\model.js:1408:11)
+    at Sequelize._syncModelsWithCyclicReferences (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:861:7)
+    at connectDB (C:\Users\Adem\OneDrive\Bureau\test\backend\src\config\database.ts:57:9)
+    at startServer (C:\Users\Adem\OneDrive\Bureau\test\backend\src\server.ts:126:5)
+[2026-04-15 17:02:37] ERROR: Error
+    at Query.run (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Function.sync (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\model.js:1408:11)
+    at async Sequelize._syncModelsWithCyclicReferences (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:861:7)
+    at async connectDB (C:\Users\Adem\OneDrive\Bureau\test\backend\src\config\database.ts:57:9)
+    at async seed (C:\Users\Adem\OneDrive\Bureau\test\backend\src\utils\seeder.ts:16:3)
+[2026-04-15 17:02:44] ERROR: Error: 
+    at Query.run (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Function.sync (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\model.js:1408:11)
+    at Sequelize._syncModelsWithCyclicReferences (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:861:7)
+    at connectDB (C:\Users\Adem\OneDrive\Bureau\test\backend\src\config\database.ts:57:9)
+    at startServer (C:\Users\Adem\OneDrive\Bureau\test\backend\src\server.ts:126:5)
+[2026-04-15 17:55:26] ERROR: Error: 
+    at Query.run (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at MySQLQueryInterface.rawSelect (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\abstract\query-interface.js:1043:18)
+    at Function.aggregate (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\model.js:2067:19)
+    at Function.count (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\model.js:2124:20)
+    at Function.list (C:\Users\Adem\OneDrive\Bureau\test\backend\src\services\inAppNotification.service.ts:49:19)
+    at C:\Users\Adem\OneDrive\Bureau\test\backend\src\routes\notifications.routes.ts:14:18
+[2026-04-15 17:55:47] ERROR: Error: 
+    at Query.run (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at MySQLQueryInterface.rawSelect (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\abstract\query-interface.js:1043:18)
+    at Function.aggregate (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\model.js:2067:19)
+    at Function.count (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\model.js:2124:20)
+    at Function.list (C:\Users\Adem\OneDrive\Bureau\test\backend\src\services\inAppNotification.service.ts:49:19)
+    at C:\Users\Adem\OneDrive\Bureau\test\backend\src\routes\notifications.routes.ts:14:18
+[2026-04-15 17:55:49] ERROR: Error: 
+    at Query.run (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at MySQLQueryInterface.rawSelect (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\abstract\query-interface.js:1043:18)
+    at Function.aggregate (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\model.js:2067:19)
+    at Function.count (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\model.js:2124:20)
+    at Function.list (C:\Users\Adem\OneDrive\Bureau\test\backend\src\services\inAppNotification.service.ts:49:19)
+    at C:\Users\Adem\OneDrive\Bureau\test\backend\src\routes\notifications.routes.ts:14:18
+[2026-04-15 17:56:11] ERROR: Error: 
+    at Query.run (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at MySQLQueryInterface.rawSelect (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\abstract\query-interface.js:1043:18)
+    at Function.aggregate (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\model.js:2067:19)
+    at Function.count (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\model.js:2124:20)
+    at Function.list (C:\Users\Adem\OneDrive\Bureau\test\backend\src\services\inAppNotification.service.ts:49:19)
+    at C:\Users\Adem\OneDrive\Bureau\test\backend\src\routes\notifications.routes.ts:14:18
+[2026-04-15 22:57:08] ERROR: Error: 
+    at Query.run (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Function.sync (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\model.js:1408:11)
+    at Sequelize._syncModelsWithCyclicReferences (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:861:7)
+    at connectDB (C:\Users\Adem\OneDrive\Bureau\test\backend\src\config\database.ts:57:9)
+    at startServer (C:\Users\Adem\OneDrive\Bureau\test\backend\src\server.ts:128:5)
+[2026-04-15 22:59:04] ERROR: Error: 
+    at Query.run (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Function.sync (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\model.js:1408:11)
+    at Sequelize._syncModelsWithCyclicReferences (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:861:7)
+    at connectDB (C:\Users\Adem\OneDrive\Bureau\test\backend\src\config\database.ts:57:9)
+    at startServer (C:\Users\Adem\OneDrive\Bureau\test\backend\src\server.ts:128:5)
+[2026-04-15 23:01:57] ERROR: Error
+    at Query.run (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Function.sync (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\model.js:1408:11)
+    at async Sequelize._syncModelsWithCyclicReferences (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:861:7)
+    at async connectDB (C:\Users\Adem\OneDrive\Bureau\test\backend\src\config\database.ts:57:9)
+    at async seed (C:\Users\Adem\OneDrive\Bureau\test\backend\src\utils\seeder.ts:16:3)
+[2026-04-16 00:12:11] ERROR: Error: 
+    at Query.run (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Function.sync (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\model.js:1408:11)
+    at Sequelize._syncModelsWithCyclicReferences (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:861:7)
+    at connectDB (C:\Users\Adem\OneDrive\Bureau\test\backend\src\config\database.ts:57:9)
+    at startServer (C:\Users\Adem\OneDrive\Bureau\test\backend\src\server.ts:132:5)
+[2026-04-16 00:12:28] ERROR: Error: 
+    at Query.run (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Function.sync (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\model.js:1408:11)
+    at Sequelize._syncModelsWithCyclicReferences (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:861:7)
+    at connectDB (C:\Users\Adem\OneDrive\Bureau\test\backend\src\config\database.ts:57:9)
+    at startServer (C:\Users\Adem\OneDrive\Bureau\test\backend\src\server.ts:132:5)
+[2026-04-16 00:12:43] ERROR: Error: 
+    at Query.run (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Function.sync (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\model.js:1408:11)
+    at Sequelize._syncModelsWithCyclicReferences (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:861:7)
+    at connectDB (C:\Users\Adem\OneDrive\Bureau\test\backend\src\config\database.ts:57:9)
+    at startServer (C:\Users\Adem\OneDrive\Bureau\test\backend\src\server.ts:132:5)
+[2026-04-16 00:14:42] ERROR: Error: 
+    at Query.run (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Function.sync (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\model.js:1408:11)
+    at Sequelize._syncModelsWithCyclicReferences (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:861:7)
+    at connectDB (C:\Users\Adem\OneDrive\Bureau\test\backend\src\config\database.ts:57:9)
+    at startServer (C:\Users\Adem\OneDrive\Bureau\test\backend\src\server.ts:132:5)
+[2026-04-16 00:14:53] ERROR: Error: 
+    at Query.run (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Function.sync (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\model.js:1408:11)
+    at Sequelize._syncModelsWithCyclicReferences (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:861:7)
+    at connectDB (C:\Users\Adem\OneDrive\Bureau\test\backend\src\config\database.ts:57:9)
+    at startServer (C:\Users\Adem\OneDrive\Bureau\test\backend\src\server.ts:132:5)
+[2026-04-16 00:15:22] ERROR: Error: 
+    at Query.run (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Function.sync (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\model.js:1408:11)
+    at Sequelize._syncModelsWithCyclicReferences (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:861:7)
+    at connectDB (C:\Users\Adem\OneDrive\Bureau\test\backend\src\config\database.ts:57:9)
+    at startServer (C:\Users\Adem\OneDrive\Bureau\test\backend\src\server.ts:132:5)
+[2026-04-16 00:15:57] ERROR: Error: 
+    at Query.run (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Function.sync (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\model.js:1408:11)
+    at Sequelize._syncModelsWithCyclicReferences (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:861:7)
+    at connectDB (C:\Users\Adem\OneDrive\Bureau\test\backend\src\config\database.ts:57:9)
+    at startServer (C:\Users\Adem\OneDrive\Bureau\test\backend\src\server.ts:132:5)
+[2026-04-16 00:16:23] ERROR: Error: 
+    at Query.run (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Function.sync (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\model.js:1408:11)
+    at Sequelize._syncModelsWithCyclicReferences (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:861:7)
+    at connectDB (C:\Users\Adem\OneDrive\Bureau\test\backend\src\config\database.ts:57:9)
+    at startServer (C:\Users\Adem\OneDrive\Bureau\test\backend\src\server.ts:132:5)
+[2026-04-16 00:17:02] ERROR: Error: 
+    at Query.run (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Function.sync (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\model.js:1408:11)
+    at Sequelize._syncModelsWithCyclicReferences (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:861:7)
+    at connectDB (C:\Users\Adem\OneDrive\Bureau\test\backend\src\config\database.ts:57:9)
+    at startServer (C:\Users\Adem\OneDrive\Bureau\test\backend\src\server.ts:132:5)
+[2026-04-16 00:17:14] ERROR: Error: 
+    at Query.run (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Function.sync (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\model.js:1408:11)
+    at Sequelize._syncModelsWithCyclicReferences (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:861:7)
+    at connectDB (C:\Users\Adem\OneDrive\Bureau\test\backend\src\config\database.ts:57:9)
+    at startServer (C:\Users\Adem\OneDrive\Bureau\test\backend\src\server.ts:132:5)
+[2026-04-16 00:17:41] ERROR: Error: 
+    at Query.run (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Function.sync (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\model.js:1408:11)
+    at Sequelize._syncModelsWithCyclicReferences (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:861:7)
+    at connectDB (C:\Users\Adem\OneDrive\Bureau\test\backend\src\config\database.ts:57:9)
+    at startServer (C:\Users\Adem\OneDrive\Bureau\test\backend\src\server.ts:132:5)
+[2026-04-16 00:34:34] ERROR: Error: 
+    at Query.run (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Function.sync (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\model.js:1408:11)
+    at Sequelize._syncModelsWithCyclicReferences (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:861:7)
+    at connectDB (C:\Users\Adem\OneDrive\Bureau\test\backend\src\config\database.ts:57:9)
+    at startServer (C:\Users\Adem\OneDrive\Bureau\test\backend\src\server.ts:132:5)
+[2026-04-21 11:43:22] ERROR: SequelizeConnectionError: Access denied for user 'cni_user'@'localhost' to database 'cni_stages_formations'
+    at ConnectionManager.connect (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\mysql\connection-manager.js:126:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at ConnectionManager._connect (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+    at ConnectionManager.getConnection (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:280:7)
+    at C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:638:26
+    at Sequelize.authenticate (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:972:5)
+    at connectDB (C:\Users\Adem\OneDrive\Bureau\test\backend\src\config\database.ts:45:5)
+    at startServer (C:\Users\Adem\OneDrive\Bureau\test\backend\src\server.ts:132:5)
+[2026-04-21 11:44:06] ERROR: SequelizeConnectionError: Access denied for user 'cni_user'@'localhost' to database 'cni_stages_formations'
+    at ConnectionManager.connect (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\mysql\connection-manager.js:126:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at async C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+    at async ConnectionManager.getConnection (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:280:7)
+    at async C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:638:26
+    at async Sequelize.authenticate (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:972:5)
+    at async connectDB (C:\Users\Adem\OneDrive\Bureau\test\backend\src\config\database.ts:45:5)
+    at async seed (C:\Users\Adem\OneDrive\Bureau\test\backend\src\utils\seeder.ts:16:3)
+[2026-04-21 11:44:20] ERROR: SequelizeConnectionError: Access denied for user 'cni_user'@'localhost' to database 'cni_stages_formations'
+    at ConnectionManager.connect (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\mysql\connection-manager.js:126:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at async C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+    at async ConnectionManager.getConnection (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:280:7)
+    at async C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:638:26
+    at async Sequelize.authenticate (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:972:5)
+    at async connectDB (C:\Users\Adem\OneDrive\Bureau\test\backend\src\config\database.ts:45:5)
+    at async seed (C:\Users\Adem\OneDrive\Bureau\test\backend\src\utils\seeder.ts:16:3)
+[2026-04-21 11:45:48] ERROR: SequelizeConnectionError: Access denied for user 'cni_user'@'localhost' to database 'cni_stages_formations'
+    at ConnectionManager.connect (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\mysql\connection-manager.js:126:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at async C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+    at async ConnectionManager.getConnection (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:280:7)
+    at async C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:638:26
+    at async Sequelize.authenticate (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:972:5)
+    at async connectDB (C:\Users\Adem\OneDrive\Bureau\test\backend\src\config\database.ts:45:5)
+    at async seed (C:\Users\Adem\OneDrive\Bureau\test\backend\src\utils\seeder.ts:16:3)
+[2026-04-21 11:46:16] ERROR: SequelizeConnectionError: Access denied for user 'cni_user'@'localhost' to database 'cni_stages_formations'
+    at ConnectionManager.connect (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\mysql\connection-manager.js:126:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at async C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+    at async ConnectionManager.getConnection (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:280:7)
+    at async C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:638:26
+    at async Sequelize.authenticate (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:972:5)
+    at async connectDB (C:\Users\Adem\OneDrive\Bureau\test\backend\src\config\database.ts:45:5)
+    at async seed (C:\Users\Adem\OneDrive\Bureau\test\backend\src\utils\seeder.ts:16:3)
+[2026-04-21 11:46:58] ERROR: SequelizeConnectionError: Access denied for user 'cni_user'@'localhost' to database 'cni_stages_formations'
+    at ConnectionManager.connect (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\mysql\connection-manager.js:126:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at async C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+    at async ConnectionManager.getConnection (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:280:7)
+    at async C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:638:26
+    at async Sequelize.authenticate (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:972:5)
+    at async connectDB (C:\Users\Adem\OneDrive\Bureau\test\backend\src\config\database.ts:45:5)
+    at async seed (C:\Users\Adem\OneDrive\Bureau\test\backend\src\utils\seeder.ts:16:3)
+[2026-04-21 11:47:07] ERROR: SequelizeConnectionError: Access denied for user 'cni_user'@'localhost' to database 'cni_stages_formations'
+    at ConnectionManager.connect (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\mysql\connection-manager.js:126:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at async C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+    at async ConnectionManager.getConnection (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:280:7)
+    at async C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:638:26
+    at async Sequelize.authenticate (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:972:5)
+    at async connectDB (C:\Users\Adem\OneDrive\Bureau\test\backend\src\config\database.ts:45:5)
+    at async seed (C:\Users\Adem\OneDrive\Bureau\test\backend\src\utils\seeder.ts:16:3)
+[2026-04-21 13:25:58] ERROR: Error: WinAnsi cannot encode "→" (0x2192)
+    at Encoding.encodeUnicodeCodePoint (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\@pdf-lib\standard-fonts\lib\Encoding.js:23:23)
+    at StandardFontEmbedder.encodeTextAsGlyphs (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\pdf-lib\src\core\embedders\StandardFontEmbedder.ts:124:35)
+    at StandardFontEmbedder.encodeText (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\pdf-lib\src\core\embedders\StandardFontEmbedder.ts:50:25)
+    at PDFFont.encodeText (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\pdf-lib\src\api\PDFFont.ts:72:26)
+    at PDFPage.drawText (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\pdf-lib\src\api\PDFPage.ts:993:35)
+    at drawLine (C:\Users\Adem\OneDrive\Bureau\test\backend\src\services\pdf.service.ts:198:12)
+    at Function.genererFicheProjet (C:\Users\Adem\OneDrive\Bureau\test\backend\src\services\pdf.service.ts:221:5)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Function.assignProject (C:\Users\Adem\OneDrive\Bureau\test\backend\src\services\stagiaireWorkflow.service.ts:110:17)
+    at workflowAssignProject (C:\Users\Adem\OneDrive\Bureau\test\backend\src\controllers\stagiaire.controller.ts:45:19)
+[2026-04-21 13:26:46] ERROR: Error: WinAnsi cannot encode "→" (0x2192)
+    at Encoding.encodeUnicodeCodePoint (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\@pdf-lib\standard-fonts\lib\Encoding.js:23:23)
+    at StandardFontEmbedder.encodeTextAsGlyphs (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\pdf-lib\src\core\embedders\StandardFontEmbedder.ts:124:35)
+    at StandardFontEmbedder.encodeText (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\pdf-lib\src\core\embedders\StandardFontEmbedder.ts:50:25)
+    at PDFFont.encodeText (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\pdf-lib\src\api\PDFFont.ts:72:26)
+    at PDFPage.drawText (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\pdf-lib\src\api\PDFPage.ts:993:35)
+    at drawLine (C:\Users\Adem\OneDrive\Bureau\test\backend\src\services\pdf.service.ts:198:12)
+    at Function.genererFicheProjet (C:\Users\Adem\OneDrive\Bureau\test\backend\src\services\pdf.service.ts:221:5)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Function.assignProject (C:\Users\Adem\OneDrive\Bureau\test\backend\src\services\stagiaireWorkflow.service.ts:110:17)
+    at workflowAssignProject (C:\Users\Adem\OneDrive\Bureau\test\backend\src\controllers\stagiaire.controller.ts:45:19)
+[2026-04-21 13:28:07] ERROR: Error: WinAnsi cannot encode "→" (0x2192)
+    at Encoding.encodeUnicodeCodePoint (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\@pdf-lib\standard-fonts\lib\Encoding.js:23:23)
+    at StandardFontEmbedder.encodeTextAsGlyphs (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\pdf-lib\src\core\embedders\StandardFontEmbedder.ts:124:35)
+    at StandardFontEmbedder.encodeText (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\pdf-lib\src\core\embedders\StandardFontEmbedder.ts:50:25)
+    at PDFFont.encodeText (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\pdf-lib\src\api\PDFFont.ts:72:26)
+    at PDFPage.drawText (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\pdf-lib\src\api\PDFPage.ts:993:35)
+    at drawLine (C:\Users\Adem\OneDrive\Bureau\test\backend\src\services\pdf.service.ts:198:12)
+    at Function.genererFicheProjet (C:\Users\Adem\OneDrive\Bureau\test\backend\src\services\pdf.service.ts:221:5)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Function.assignProject (C:\Users\Adem\OneDrive\Bureau\test\backend\src\services\stagiaireWorkflow.service.ts:110:17)
+    at workflowAssignProject (C:\Users\Adem\OneDrive\Bureau\test\backend\src\controllers\stagiaire.controller.ts:45:19)
+[2026-04-21 13:51:09] ERROR: Error: 
+    at Query.run (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Function.sync (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\model.js:1408:11)
+    at Sequelize._syncModelsWithCyclicReferences (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:861:7)
+    at connectDB (C:\Users\Adem\OneDrive\Bureau\test\backend\src\config\database.ts:57:9)
+    at startServer (C:\Users\Adem\OneDrive\Bureau\test\backend\src\server.ts:132:5)
+[2026-04-21 16:21:35] ERROR: Error: 
+    at Query.run (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Function.sync (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\model.js:1408:11)
+    at Sequelize._syncModelsWithCyclicReferences (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:861:7)
+    at connectDB (C:\Users\Adem\OneDrive\Bureau\test\backend\src\config\database.ts:57:9)
+    at startServer (C:\Users\Adem\OneDrive\Bureau\test\backend\src\server.ts:132:5)
+[2026-04-21 17:17:24] ERROR: Error: 
+    at Query.run (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Function.sync (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\model.js:1408:11)
+    at Sequelize._syncModelsWithCyclicReferences (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:861:7)
+    at connectDB (C:\Users\Adem\OneDrive\Bureau\test\backend\src\config\database.ts:57:9)
+    at startServer (C:\Users\Adem\OneDrive\Bureau\test\backend\src\server.ts:132:5)
+[2026-04-21 17:17:45] ERROR: Error: 
+    at Query.run (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Function.sync (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\model.js:1408:11)
+    at Sequelize._syncModelsWithCyclicReferences (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:861:7)
+    at connectDB (C:\Users\Adem\OneDrive\Bureau\test\backend\src\config\database.ts:57:9)
+    at startServer (C:\Users\Adem\OneDrive\Bureau\test\backend\src\server.ts:132:5)
+[2026-04-21 17:18:26] ERROR: Error: 
+    at Query.run (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Function.sync (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\model.js:1408:11)
+    at Sequelize._syncModelsWithCyclicReferences (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:861:7)
+    at connectDB (C:\Users\Adem\OneDrive\Bureau\test\backend\src\config\database.ts:57:9)
+    at startServer (C:\Users\Adem\OneDrive\Bureau\test\backend\src\server.ts:132:5)
+[2026-04-21 17:18:52] ERROR: Error: 
+    at Query.run (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Function.sync (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\model.js:1408:11)
+    at Sequelize._syncModelsWithCyclicReferences (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:861:7)
+    at connectDB (C:\Users\Adem\OneDrive\Bureau\test\backend\src\config\database.ts:57:9)
+    at startServer (C:\Users\Adem\OneDrive\Bureau\test\backend\src\server.ts:132:5)
+[2026-04-21 17:20:19] ERROR: Error: 
+    at Query.run (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Function.sync (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\model.js:1408:11)
+    at Sequelize._syncModelsWithCyclicReferences (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:861:7)
+    at connectDB (C:\Users\Adem\OneDrive\Bureau\test\backend\src\config\database.ts:57:9)
+    at startServer (C:\Users\Adem\OneDrive\Bureau\test\backend\src\server.ts:132:5)
+[2026-04-21 18:02:23] ERROR: Error: 
+    at Query.run (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Function.sync (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\model.js:1408:11)
+    at Sequelize._syncModelsWithCyclicReferences (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:861:7)
+    at connectDB (C:\Users\Adem\OneDrive\Bureau\test\backend\src\config\database.ts:57:9)
+    at startServer (C:\Users\Adem\OneDrive\Bureau\test\backend\src\server.ts:132:5)
+[2026-04-21 18:02:48] ERROR: Error: 
+    at Query.run (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Function.sync (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\model.js:1408:11)
+    at Sequelize._syncModelsWithCyclicReferences (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:861:7)
+    at connectDB (C:\Users\Adem\OneDrive\Bureau\test\backend\src\config\database.ts:57:9)
+    at startServer (C:\Users\Adem\OneDrive\Bureau\test\backend\src\server.ts:132:5)
+[2026-04-21 18:03:32] ERROR: Error: 
+    at Query.run (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Function.sync (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\model.js:1408:11)
+    at Sequelize._syncModelsWithCyclicReferences (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:861:7)
+    at connectDB (C:\Users\Adem\OneDrive\Bureau\test\backend\src\config\database.ts:57:9)
+    at startServer (C:\Users\Adem\OneDrive\Bureau\test\backend\src\server.ts:132:5)
+[2026-04-21 18:05:03] ERROR: Error: 
+    at Query.run (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Function.sync (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\model.js:1408:11)
+    at Sequelize._syncModelsWithCyclicReferences (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:861:7)
+    at connectDB (C:\Users\Adem\OneDrive\Bureau\test\backend\src\config\database.ts:57:9)
+    at startServer (C:\Users\Adem\OneDrive\Bureau\test\backend\src\server.ts:132:5)
+[2026-04-25 14:38:01] ERROR: SequelizeConnectionError: Unknown database 'cni_stages_formations'
+    at ConnectionManager.connect (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\mysql\connection-manager.js:126:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at ConnectionManager._connect (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+    at ConnectionManager.getConnection (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:280:7)
+    at C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:638:26
+    at Sequelize.authenticate (C:\Users\Adem\OneDrive\Bureau\test\backend\node_modules\sequelize\src\sequelize.js:972:5)
+    at connectDB (C:\Users\Adem\OneDrive\Bureau\test\backend\src\config\database.ts:45:5)
+    at startServer (C:\Users\Adem\OneDrive\Bureau\test\backend\src\server.ts:132:5)
+[2026-05-11 17:19:35] ERROR: SequelizeConnectionRefusedError: 
+    at ConnectionManager.connect (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\sequelize\src\dialects\mysql\connection-manager.js:116:17)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at ConnectionManager._connect (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+    at ConnectionManager.getConnection (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:280:7)
+    at C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\sequelize\src\sequelize.js:638:26
+    at Sequelize.authenticate (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\sequelize\src\sequelize.js:972:5)
+    at connectDB (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\src\config\database.ts:45:5)
+    at startServer (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\src\server.ts:132:5)
+[2026-05-11 17:37:27] ERROR: SequelizeConnectionRefusedError: 
+    at ConnectionManager.connect (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\sequelize\src\dialects\mysql\connection-manager.js:116:17)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at ConnectionManager._connect (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+[2026-05-11 17:37:27] ERROR: SequelizeConnectionRefusedError: 
+    at ConnectionManager.connect (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\sequelize\src\dialects\mysql\connection-manager.js:116:17)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at ConnectionManager._connect (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+[2026-05-11 17:41:50] ERROR: SequelizeConnectionRefusedError: 
+    at ConnectionManager.connect (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\sequelize\src\dialects\mysql\connection-manager.js:116:17)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at ConnectionManager._connect (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+[2026-05-11 17:44:53] ERROR: SequelizeConnectionRefusedError: 
+    at ConnectionManager.connect (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\sequelize\src\dialects\mysql\connection-manager.js:116:17)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at ConnectionManager._connect (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+[2026-05-11 17:44:58] ERROR: SequelizeConnectionRefusedError: 
+    at ConnectionManager.connect (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\sequelize\src\dialects\mysql\connection-manager.js:116:17)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at ConnectionManager._connect (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+[2026-05-11 17:45:09] ERROR: SequelizeConnectionRefusedError: 
+    at ConnectionManager.connect (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\sequelize\src\dialects\mysql\connection-manager.js:116:17)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at ConnectionManager._connect (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+[2026-05-11 17:58:50] ERROR: SequelizeConnectionRefusedError: 
+    at ConnectionManager.connect (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\sequelize\src\dialects\mysql\connection-manager.js:116:17)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at ConnectionManager._connect (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+[2026-05-11 17:58:58] ERROR: SequelizeConnectionRefusedError: 
+    at ConnectionManager.connect (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\sequelize\src\dialects\mysql\connection-manager.js:116:17)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at ConnectionManager._connect (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+[2026-05-11 18:00:15] ERROR: SequelizeConnectionRefusedError: 
+    at ConnectionManager.connect (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\sequelize\src\dialects\mysql\connection-manager.js:116:17)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at ConnectionManager._connect (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+    at ConnectionManager.getConnection (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:280:7)
+    at C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\sequelize\src\sequelize.js:638:26
+    at Sequelize.authenticate (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\sequelize\src\sequelize.js:972:5)
+    at connectDB (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\src\config\database.ts:45:5)
+    at startServer (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\src\server.ts:132:5)
+[2026-05-11 18:11:08] ERROR: Error: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-4548ec6be40sm27826725f8f.12 - gsmtp
+    at SMTPConnection._formatError (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\nodemailer\lib\smtp-connection\index.js:809:19)
+    at SMTPConnection._actionAUTHComplete (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\nodemailer\lib\smtp-connection\index.js:1588:34)
+    at SMTPConnection.<anonymous> (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\nodemailer\lib\smtp-connection\index.js:556:26)
+    at SMTPConnection._processResponse (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\nodemailer\lib\smtp-connection\index.js:993:20)
+    at SMTPConnection._onData (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\nodemailer\lib\smtp-connection\index.js:774:14)
+    at TLSSocket.SMTPConnection._onSocketData (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\nodemailer\lib\smtp-connection\index.js:195:44)
+    at TLSSocket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at TLSSocket.Readable.push (node:internal/streams/readable:390:5)
+[2026-05-11 18:11:09] ERROR: Error: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-48e7040a8f1sm182442005e9.11 - gsmtp
+    at SMTPConnection._formatError (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\nodemailer\lib\smtp-connection\index.js:809:19)
+    at SMTPConnection._actionAUTHComplete (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\nodemailer\lib\smtp-connection\index.js:1588:34)
+    at SMTPConnection.<anonymous> (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\nodemailer\lib\smtp-connection\index.js:556:26)
+    at SMTPConnection._processResponse (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\nodemailer\lib\smtp-connection\index.js:993:20)
+    at SMTPConnection._onData (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\nodemailer\lib\smtp-connection\index.js:774:14)
+    at TLSSocket.SMTPConnection._onSocketData (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\nodemailer\lib\smtp-connection\index.js:195:44)
+    at TLSSocket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at TLSSocket.Readable.push (node:internal/streams/readable:390:5)
+[2026-05-11 18:11:10] ERROR: Error: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-4549120f1f9sm26722978f8f.24 - gsmtp
+    at SMTPConnection._formatError (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\nodemailer\lib\smtp-connection\index.js:809:19)
+    at SMTPConnection._actionAUTHComplete (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\nodemailer\lib\smtp-connection\index.js:1588:34)
+    at SMTPConnection.<anonymous> (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\nodemailer\lib\smtp-connection\index.js:556:26)
+    at SMTPConnection._processResponse (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\nodemailer\lib\smtp-connection\index.js:993:20)
+    at SMTPConnection._onData (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\nodemailer\lib\smtp-connection\index.js:774:14)
+    at TLSSocket.SMTPConnection._onSocketData (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\nodemailer\lib\smtp-connection\index.js:195:44)
+    at TLSSocket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at TLSSocket.Readable.push (node:internal/streams/readable:390:5)
+[2026-05-11 18:11:11] ERROR: Error: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-48e6d8d6963sm65767195e9.4 - gsmtp
+    at SMTPConnection._formatError (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\nodemailer\lib\smtp-connection\index.js:809:19)
+    at SMTPConnection._actionAUTHComplete (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\nodemailer\lib\smtp-connection\index.js:1588:34)
+    at SMTPConnection.<anonymous> (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\nodemailer\lib\smtp-connection\index.js:556:26)
+    at SMTPConnection._processResponse (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\nodemailer\lib\smtp-connection\index.js:993:20)
+    at SMTPConnection._onData (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\nodemailer\lib\smtp-connection\index.js:774:14)
+    at TLSSocket.SMTPConnection._onSocketData (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\nodemailer\lib\smtp-connection\index.js:195:44)
+    at TLSSocket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at TLSSocket.Readable.push (node:internal/streams/readable:390:5)
+[2026-05-11 18:11:12] ERROR: Error: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-48e6d8e4f0dsm67023645e9.11 - gsmtp
+    at SMTPConnection._formatError (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\nodemailer\lib\smtp-connection\index.js:809:19)
+    at SMTPConnection._actionAUTHComplete (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\nodemailer\lib\smtp-connection\index.js:1588:34)
+    at SMTPConnection.<anonymous> (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\nodemailer\lib\smtp-connection\index.js:556:26)
+    at SMTPConnection._processResponse (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\nodemailer\lib\smtp-connection\index.js:993:20)
+    at SMTPConnection._onData (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\nodemailer\lib\smtp-connection\index.js:774:14)
+    at TLSSocket.SMTPConnection._onSocketData (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\nodemailer\lib\smtp-connection\index.js:195:44)
+    at TLSSocket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at TLSSocket.Readable.push (node:internal/streams/readable:390:5)
+[2026-05-11 18:11:12] ERROR: Error: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-48e6fffb9bdsm181410485e9.1 - gsmtp
+    at SMTPConnection._formatError (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\nodemailer\lib\smtp-connection\index.js:809:19)
+    at SMTPConnection._actionAUTHComplete (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\nodemailer\lib\smtp-connection\index.js:1588:34)
+    at SMTPConnection.<anonymous> (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\nodemailer\lib\smtp-connection\index.js:556:26)
+    at SMTPConnection._processResponse (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\nodemailer\lib\smtp-connection\index.js:993:20)
+    at SMTPConnection._onData (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\nodemailer\lib\smtp-connection\index.js:774:14)
+    at TLSSocket.SMTPConnection._onSocketData (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\nodemailer\lib\smtp-connection\index.js:195:44)
+    at TLSSocket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at TLSSocket.Readable.push (node:internal/streams/readable:390:5)
+[2026-05-11 18:11:13] ERROR: Error: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-45491f8d4c3sm25973078f8f.34 - gsmtp
+    at SMTPConnection._formatError (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\nodemailer\lib\smtp-connection\index.js:809:19)
+    at SMTPConnection._actionAUTHComplete (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\nodemailer\lib\smtp-connection\index.js:1588:34)
+    at SMTPConnection.<anonymous> (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\nodemailer\lib\smtp-connection\index.js:556:26)
+    at SMTPConnection._processResponse (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\nodemailer\lib\smtp-connection\index.js:993:20)
+    at SMTPConnection._onData (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\nodemailer\lib\smtp-connection\index.js:774:14)
+    at TLSSocket.SMTPConnection._onSocketData (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\nodemailer\lib\smtp-connection\index.js:195:44)
+    at TLSSocket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at TLSSocket.Readable.push (node:internal/streams/readable:390:5)
+[2026-05-11 18:11:14] ERROR: Error: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-48e6db1413csm66046455e9.29 - gsmtp
+    at SMTPConnection._formatError (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\nodemailer\lib\smtp-connection\index.js:809:19)
+    at SMTPConnection._actionAUTHComplete (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\nodemailer\lib\smtp-connection\index.js:1588:34)
+    at SMTPConnection.<anonymous> (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\nodemailer\lib\smtp-connection\index.js:556:26)
+    at SMTPConnection._processResponse (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\nodemailer\lib\smtp-connection\index.js:993:20)
+    at SMTPConnection._onData (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\nodemailer\lib\smtp-connection\index.js:774:14)
+    at TLSSocket.SMTPConnection._onSocketData (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\nodemailer\lib\smtp-connection\index.js:195:44)
+    at TLSSocket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at TLSSocket.Readable.push (node:internal/streams/readable:390:5)
+[2026-05-11 18:17:30] ERROR: Error: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-48e6fffba5fsm187287355e9.2 - gsmtp
+    at SMTPConnection._formatError (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\nodemailer\lib\smtp-connection\index.js:809:19)
+    at SMTPConnection._actionAUTHComplete (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\nodemailer\lib\smtp-connection\index.js:1588:34)
+    at SMTPConnection.<anonymous> (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\nodemailer\lib\smtp-connection\index.js:556:26)
+    at SMTPConnection._processResponse (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\nodemailer\lib\smtp-connection\index.js:993:20)
+    at SMTPConnection._onData (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\nodemailer\lib\smtp-connection\index.js:774:14)
+    at TLSSocket.SMTPConnection._onSocketData (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\nodemailer\lib\smtp-connection\index.js:195:44)
+    at TLSSocket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at TLSSocket.Readable.push (node:internal/streams/readable:390:5)
+[2026-05-11 18:17:30] ERROR: Error: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-48e6fffba5fsm187287355e9.2 - gsmtp
+    at SMTPConnection._formatError (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\nodemailer\lib\smtp-connection\index.js:809:19)
+    at SMTPConnection._actionAUTHComplete (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\nodemailer\lib\smtp-connection\index.js:1588:34)
+    at SMTPConnection.<anonymous> (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\nodemailer\lib\smtp-connection\index.js:556:26)
+    at SMTPConnection._processResponse (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\nodemailer\lib\smtp-connection\index.js:993:20)
+    at SMTPConnection._onData (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\nodemailer\lib\smtp-connection\index.js:774:14)
+    at TLSSocket.SMTPConnection._onSocketData (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\nodemailer\lib\smtp-connection\index.js:195:44)
+    at TLSSocket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at TLSSocket.Readable.push (node:internal/streams/readable:390:5)
+[2026-05-11 18:17:39] ERROR: Error: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-48e702ec599sm177167045e9.11 - gsmtp
+    at SMTPConnection._formatError (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\nodemailer\lib\smtp-connection\index.js:809:19)
+    at SMTPConnection._actionAUTHComplete (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\nodemailer\lib\smtp-connection\index.js:1588:34)
+    at SMTPConnection.<anonymous> (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\nodemailer\lib\smtp-connection\index.js:556:26)
+    at SMTPConnection._processResponse (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\nodemailer\lib\smtp-connection\index.js:993:20)
+    at SMTPConnection._onData (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\nodemailer\lib\smtp-connection\index.js:774:14)
+    at TLSSocket.SMTPConnection._onSocketData (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\nodemailer\lib\smtp-connection\index.js:195:44)
+    at TLSSocket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at TLSSocket.Readable.push (node:internal/streams/readable:390:5)
+[2026-05-11 18:17:39] ERROR: Error: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-48e702ec599sm177167045e9.11 - gsmtp
+    at SMTPConnection._formatError (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\nodemailer\lib\smtp-connection\index.js:809:19)
+    at SMTPConnection._actionAUTHComplete (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\nodemailer\lib\smtp-connection\index.js:1588:34)
+    at SMTPConnection.<anonymous> (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\nodemailer\lib\smtp-connection\index.js:556:26)
+    at SMTPConnection._processResponse (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\nodemailer\lib\smtp-connection\index.js:993:20)
+    at SMTPConnection._onData (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\nodemailer\lib\smtp-connection\index.js:774:14)
+    at TLSSocket.SMTPConnection._onSocketData (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\nodemailer\lib\smtp-connection\index.js:195:44)
+    at TLSSocket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at TLSSocket.Readable.push (node:internal/streams/readable:390:5)
+[2026-05-11 18:20:39] ERROR: Error: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-4548eb75c29sm26087373f8f.9 - gsmtp
+    at SMTPConnection._formatError (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\nodemailer\lib\smtp-connection\index.js:809:19)
+    at SMTPConnection._actionAUTHComplete (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\nodemailer\lib\smtp-connection\index.js:1588:34)
+    at SMTPConnection.<anonymous> (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\nodemailer\lib\smtp-connection\index.js:556:26)
+    at SMTPConnection._processResponse (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\nodemailer\lib\smtp-connection\index.js:993:20)
+    at SMTPConnection._onData (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\nodemailer\lib\smtp-connection\index.js:774:14)
+    at TLSSocket.SMTPConnection._onSocketData (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\nodemailer\lib\smtp-connection\index.js:195:44)
+    at TLSSocket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at TLSSocket.Readable.push (node:internal/streams/readable:390:5)
+[2026-05-11 18:20:39] ERROR: Error: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-4548eb75c29sm26087373f8f.9 - gsmtp
+    at SMTPConnection._formatError (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\nodemailer\lib\smtp-connection\index.js:809:19)
+    at SMTPConnection._actionAUTHComplete (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\nodemailer\lib\smtp-connection\index.js:1588:34)
+    at SMTPConnection.<anonymous> (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\nodemailer\lib\smtp-connection\index.js:556:26)
+    at SMTPConnection._processResponse (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\nodemailer\lib\smtp-connection\index.js:993:20)
+    at SMTPConnection._onData (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\nodemailer\lib\smtp-connection\index.js:774:14)
+    at TLSSocket.SMTPConnection._onSocketData (C:\Users\HP\OneDrive\Desktop\cni-main\cni-main\backend\node_modules\nodemailer\lib\smtp-connection\index.js:195:44)
+    at TLSSocket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at TLSSocket.Readable.push (node:internal/streams/readable:390:5)
+[2026-05-11 18:24:57] ERROR: Error: queryA EBADNAME azer.mattoussi1@gmail.com
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/callback_resolver:45:19)
+[2026-05-11 18:24:57] ERROR: Error: queryA EBADNAME azer.mattoussi1@gmail.com
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/callback_resolver:45:19)

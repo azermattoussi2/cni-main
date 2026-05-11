@@ -1,0 +1,80 @@
+import { Model, Optional } from 'sequelize';
+export type StatutFormation = 'Brouillon' | 'Publiee' | 'En_cours' | 'Terminee' | 'Annulee' | 'Archivee';
+export type TypeFormation = 'Interne' | 'Externe' | 'E_learning' | 'Mixte' | 'Certification';
+export type DomaineFormation = 'Informatique' | 'Management' | 'Communication' | 'Finance' | 'RH' | 'Securite' | 'Langue' | 'Technique' | 'Autre';
+export interface FormationAttributes {
+    id: number;
+    titre: string;
+    description?: string;
+    domaine: DomaineFormation;
+    type: TypeFormation;
+    niveau?: string;
+    dureeJours?: number;
+    dureeHeures?: number;
+    dateDebut?: Date;
+    dateFin?: Date;
+    lieu?: string;
+    maxParticipants?: number;
+    minParticipants?: number;
+    nbInscrits: number;
+    cout?: number;
+    coutParParticipant?: number;
+    budgetDepartementId?: number;
+    formateurId?: number;
+    formateurNom?: string;
+    statut: StatutFormation;
+    noteSatisfaction?: number;
+    nbEvaluations?: number;
+    supportPath?: string;
+    certificatTemplate?: string;
+    objectifs?: string;
+    prerequis?: string;
+    programme?: string;
+    lienVisio?: string;
+    rappelJm7Envoye: boolean;
+    rappelJm2Envoye: boolean;
+    questionnaireSatisfactionEnvoye: boolean;
+    isActif: boolean;
+    createdAt?: Date;
+    updatedAt?: Date;
+}
+interface FormationCreationAttributes extends Optional<FormationAttributes, 'id' | 'nbInscrits' | 'statut' | 'rappelJm7Envoye' | 'rappelJm2Envoye' | 'questionnaireSatisfactionEnvoye' | 'isActif'> {
+}
+declare class Formation extends Model<FormationAttributes, FormationCreationAttributes> implements FormationAttributes {
+    id: number;
+    titre: string;
+    description?: string;
+    domaine: DomaineFormation;
+    type: TypeFormation;
+    niveau?: string;
+    dureeJours?: number;
+    dureeHeures?: number;
+    dateDebut?: Date;
+    dateFin?: Date;
+    lieu?: string;
+    maxParticipants?: number;
+    minParticipants?: number;
+    nbInscrits: number;
+    cout?: number;
+    coutParParticipant?: number;
+    budgetDepartementId?: number;
+    formateurId?: number;
+    formateurNom?: string;
+    statut: StatutFormation;
+    noteSatisfaction?: number;
+    nbEvaluations?: number;
+    supportPath?: string;
+    certificatTemplate?: string;
+    objectifs?: string;
+    prerequis?: string;
+    programme?: string;
+    lienVisio?: string;
+    rappelJm7Envoye: boolean;
+    rappelJm2Envoye: boolean;
+    questionnaireSatisfactionEnvoye: boolean;
+    isActif: boolean;
+    readonly createdAt: Date;
+    readonly updatedAt: Date;
+}
+export default Formation;
+//# sourceMappingURL=Formation.d.ts.map

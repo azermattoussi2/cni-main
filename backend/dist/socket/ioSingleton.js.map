@@ -1,0 +1,1 @@
+{"version":3,"file":"ioSingleton.js","sourceRoot":"","sources":["../../src/socket/ioSingleton.ts"],"names":[],"mappings":";;;AAEA,IAAI,EAAE,GAAoB,IAAI,CAAC;AAExB,MAAM,KAAK,GAAG,CAAC,MAAgB,EAAQ,EAAE;IAC9C,EAAE,GAAG,MAAM,CAAC;AACd,CAAC,CAAC;AAFW,QAAA,KAAK,SAEhB;AAEK,MAAM,KAAK,GAAG,GAAoB,EAAE,CAAC,EAAE,CAAC;AAAlC,QAAA,KAAK,SAA6B"}

@@ -1,0 +1,1 @@
+{"version":3,"file":"cv-parser.d.ts","sourceRoot":"","sources":["../../src/utils/cv-parser.ts"],"names":[],"mappings":"AAOA,MAAM,MAAM,SAAS,GAAG;IACtB,YAAY,CAAC,EAAE,MAAM,CAAC;IACtB,cAAc,CAAC,EAAE,MAAM,CAAC;IACxB,cAAc,CAAC,EAAE,MAAM,CAAC;IACxB,eAAe,CAAC,EAAE,MAAM,CAAC;CAC1B,CAAC;AAEF,eAAO,MAAM,YAAY,GAAI,WAAW,MAAM,KAAG,SAsBhD,CAAC"}
