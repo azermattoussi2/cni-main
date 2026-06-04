@@ -4113,3 +4113,68 @@ Please retry in 44.981939437s.
 [2026-05-11 18:52:14] INFO: ✉️ Email envoyé à : azer.mattoussi2@gmail.com | Sujet : 🎉 Candidature acceptée - Convention de stage CNI
 [2026-05-11 18:52:14] INFO: ✅ Stage accepté : mattoussi azer (#5)
 [2026-05-11 18:52:14] INFO: [WORKFLOW] stage-validation | stagiaire#5 | valide_manager
+[2026-05-13 10:34:30] INFO: 📦 Connexion MySQL réussie
+[2026-05-13 10:34:33] INFO: 🔄 Tables Sequelize vérifiées (création si absentes ; alter désactivé).
+[2026-05-13 10:34:33] INFO: ✅ Connexion MySQL établie
+[2026-05-13 10:34:33] INFO: 🚀 Serveur CNI démarré sur le port 5000
+[2026-05-13 10:34:33] INFO: 📡 Environnement : development
+[2026-05-13 10:34:33] INFO: 🌐 URL : http://localhost:5000
+[2026-05-13 10:34:33] INFO: 📊 API Health : http://localhost:5000/api/health
+[2026-05-13 10:34:33] INFO: 💬 Socket.IO : path /socket.io
+[2026-05-13 10:35:33] WARN: Token JWT invalide ou expiré
+[2026-05-13 10:35:33] WARN: Tentative d'accès avec token invalide depuis ::1
+[2026-05-13 10:35:33] WARN: Token JWT invalide ou expiré
+[2026-05-13 10:35:33] WARN: Tentative d'accès avec token invalide depuis ::1
+[2026-05-13 10:35:33] WARN: Token JWT invalide ou expiré
+[2026-05-13 10:35:33] WARN: Tentative d'accès avec token invalide depuis ::1
+[2026-05-13 10:35:53] INFO: 👋 Déconnexion : utilisateur ID 2
+[2026-05-13 10:36:07] INFO: ✅ Connexion réussie : rh@cni.tn (Direction_RH)
+[2026-05-13 10:37:04] INFO: 👋 Déconnexion : utilisateur ID 1
+[2026-05-13 10:39:32] INFO: 📧 SMTP actif et vérifié : smtp.gmail.com:587 (azer.mattoussi1@gmail.com)
+[2026-05-13 10:39:34] INFO: ✉️ Email envoyé à : azer.mattoussi3@gmail.com | Sujet : Code de vérification 15 min — CNI Stages
+[2026-05-13 10:39:34] INFO: OTP envoyé à azer.mattoussi3@gmail.com (candidature)
+[2026-05-13 10:45:27] INFO: ✉️ Email envoyé à : azer.mattoussi2@gmail.com | Sujet : Code de vérification 15 min — CNI Stages
+[2026-05-13 10:45:27] INFO: OTP envoyé à azer.mattoussi2@gmail.com (candidature)
+[2026-05-13 10:50:12] INFO: ✉️ Email envoyé à : azer.mattoussi3@gmail.com | Sujet : Code de vérification 15 min — CNI Stages
+[2026-05-13 10:50:12] INFO: OTP envoyé à azer.mattoussi3@gmail.com (candidature)
+[2026-05-13 10:50:47] INFO: CV DOCX: longueur=4227
+[2026-05-13 10:50:48] WARN: Gemini: HTTP 429, retry 1/4 dans 1200 ms…
+[2026-05-13 10:50:49] WARN: Gemini: HTTP 429, retry 2/4 dans 2400 ms…
+[2026-05-13 10:50:52] WARN: Gemini: HTTP 429, retry 3/4 dans 4800 ms…
+[2026-05-13 10:50:57] WARN: Gemini texte: HTTP 429 — {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, 
+[2026-05-13 10:50:57] INFO: 📝 Nouvelle candidature créée : souid omar (#6)
+[2026-05-13 10:50:57] INFO: [WORKFLOW] stage-candidature-reception | stagiaire#6 | soumission
+[2026-05-13 10:50:58] INFO: ✉️ Email envoyé à : azer.mattoussi3@gmail.com | Sujet : ✅ Candidature reçue - CNI Stages
+[2026-05-13 10:51:00] INFO: ✉️ Email envoyé à : rh@cni.tn | Sujet : 📋 Nouvelle candidature de stage - souid omar
+[2026-05-13 10:51:02] INFO: ✉️ Email envoyé à : manager.dev@cni.tn | Sujet : 📋 Nouvelle candidature pour votre département - souid omar
+[2026-05-13 10:52:55] INFO: ✅ Connexion réussie : rh@cni.tn (Direction_RH)
+[2026-05-13 10:53:43] INFO: 👋 Déconnexion : utilisateur ID 1
+[2026-05-13 11:03:06] INFO: ✅ Connexion réussie : rh@cni.tn (Direction_RH)
+[2026-05-13 11:05:17] INFO: [WORKFLOW] stage-validation | stagiaire#6 | valide_rh
+[2026-05-13 11:05:18] INFO: ✉️ Email envoyé à : azer.mattoussi3@gmail.com | Sujet : ✅ Candidature validée par la RH — en attente manager
+[2026-05-13 11:05:20] INFO: ✉️ Email envoyé à : manager.dev@cni.tn | Sujet : 🔍 Candidature à valider - souid omar
+[2026-05-13 11:19:06] WARN: Token JWT invalide ou expiré
+[2026-05-13 11:19:06] WARN: Tentative d'accès avec token invalide depuis ::1
+[2026-05-13 11:19:06] WARN: Token JWT invalide ou expiré
+[2026-05-13 11:19:06] WARN: Tentative d'accès avec token invalide depuis ::1
+[2026-05-13 11:19:35] INFO: 👋 Déconnexion : utilisateur ID 1
+[2026-05-13 11:19:42] INFO: ✅ Connexion réussie : ahmed@cni.tn (Employe)
+[2026-05-13 11:21:09] INFO: 👋 Déconnexion : utilisateur ID 4
+[2026-05-25 12:53:17] INFO: 📦 Connexion MySQL réussie
+[2026-05-25 12:53:20] INFO: 🔄 Tables Sequelize vérifiées (création si absentes ; alter désactivé).
+[2026-05-25 12:53:20] INFO: ✅ Connexion MySQL établie
+[2026-05-25 12:53:20] INFO: 🚀 Serveur CNI démarré sur le port 5000
+[2026-05-25 12:53:20] INFO: 📡 Environnement : development
+[2026-05-25 12:53:20] INFO: 🌐 URL : http://localhost:5000
+[2026-05-25 12:53:20] INFO: 📊 API Health : http://localhost:5000/api/health
+[2026-05-25 12:53:20] INFO: 💬 Socket.IO : path /socket.io
+[2026-05-25 12:54:00] INFO: ✅ Connexion réussie : rh@cni.tn (Direction_RH)
+[2026-05-25 12:54:20] INFO: 👋 Déconnexion : utilisateur ID 1
+[2026-05-25 12:54:37] INFO: ✅ Connexion réussie : rh@cni.tn (Direction_RH)
+[2026-05-25 12:55:22] INFO: 👋 Déconnexion : utilisateur ID 1
+[2026-05-25 12:57:13] INFO: 📧 SMTP actif et vérifié : smtp.gmail.com:587 (azer.mattoussi1@gmail.com)
+[2026-05-25 12:57:15] INFO: ✉️ Email envoyé à : azer.mattoussi2@gmail.com | Sujet : Code de vérification 15 min — CNI Stages
+[2026-05-25 12:57:15] INFO: OTP envoyé à azer.mattoussi2@gmail.com (candidature)
